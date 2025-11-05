@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+
+.welcome-content{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+  .fnd-location{
+    width: 181px;
+  }
+  .welcome-text{
+    width: 338px;
+  }
+  .welcome-heading{
+    width: 336px;
+  }
+  .welcome-heading-container {
+    margin-top: 40px;
+  }
+
+
+}
+.welcome-image{
+
+}
