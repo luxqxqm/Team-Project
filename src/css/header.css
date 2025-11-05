@@ -38,5 +38,11 @@
 
   .nav-link {
     color: #0b0803;
+    transition: opacity 250ms ease-in-out;
+  }
+
+  .nav-link:focus,
+  .nav-link:hover {
+    opacity: 0.5;
   }
 }
