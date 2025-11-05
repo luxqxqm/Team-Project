@@ -17,13 +17,11 @@
   z-index: 1000;
 }
 
-.container-menu {
-}
-
-.mobile-menu .container-menu {
+.container .container-menu {
   display: flex;
   flex-direction: column;
   height: 100%;
+  position: relative;
 }
 
 .mobile-btn {
@@ -39,27 +37,26 @@
   background-color: transparent;
 }
 
+.logo {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+}
+
 .nav-mobile {
   display: flex;
+  flex-direction: column;
   align-items: center;
-}
-
-.logo-mobile {
+  margin-top: auto;
   margin-bottom: auto;
-  width: 100%;
-  padding: 18px 0;
 }
-
-/*  */
 
 .mobile-nav-list {
-  height: 100%;
-  padding-bottom: 57px;
-  margin-bottom: auto;
-
+  padding-top: 76px;
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+  align-items: center;
 }
 
 .mobile-nav-item a {
