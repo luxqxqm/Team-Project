@@ -40,6 +40,8 @@
 }
 
 .nav-mobile {
+  display: flex;
+  align-items: center;
 }
 
 .logo-mobile {
@@ -51,8 +53,8 @@
 .mobile-nav-list {
   height: 100%;
   padding-bottom: 57px;
+  margin-bottom: auto;
 
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   row-gap: 32px;
