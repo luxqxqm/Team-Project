@@ -1,0 +1,114 @@
+.container-location{
+    max-width: 320px;
+    min-width: 320px;
+    padding: 64px 16px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.location-header{
+    margin-bottom: 40px;
+}
+.location-find{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0b0803;
+    margin-bottom: 16px;
+}
+.location-name{
+    font-family: "Aboreto", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #0b0803;
+    margin-bottom: 24px;
+}
+.location-text{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color:#0b0803;
+}
+.location-contact-item:not(:last-child){
+    margin-bottom: 40px;
+}
+.location-icon{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.location-title{
+    font-family: "Aboreto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+    color: #0b0803;
+    margin-bottom: 8px;
+}
+.location-app{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+     text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0b0803;
+}
+.location-add{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration-skip-ink: none;
+    color: #0b0803;
+}
+
+.location-btn-wrapper{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+.location-btn{
+    height: 24px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+.location-link{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0b0803;
+    text-decoration: none;
+}
+.location-icon-button{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-map{
+    width: 288px;
+    height: 307px;
+    justify-content: center;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-top: 32px;
+    background-size: cover;
+}
