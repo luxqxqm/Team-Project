@@ -1,0 +1,44 @@
+.hero {
+    max-width: 320px;
+    background-color: #b5b4b3;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/hero/hero_mob-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 644px;
+    margin: 0 auto;
+    padding: 108px 32px;
+}
+
+@media  (min-resolution: 192dpi) {
+   .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/hero/hero_desk@2x-min.jpg);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+   .hero {
+    max-width: 768px;
+    height: 900px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/hero/hero_tab-min.jpg);
+  }
+  
+@media (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/hero/hero_tab@2x-min.jpg);
+    }
+}
+
+}
+
+@media only screen and (min-width: 1400px) {
+   .hero {
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/hero/hero_desk-min.jpg);
+  }
+
+  @media (min-resolution: 192dpi) {
+      .hero {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/hero/hero_desk@2x-min.jpg);
+      }
+  }
+}
