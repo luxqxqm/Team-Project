@@ -53,12 +53,6 @@
     }
 }
 
-@media screen and (max-width: 767px) {
-    .exp-item {
-        flex: 1 1 100%;
-    }
-}
-
 .exp-img {
     border-radius: 32px;
     width: 100%;
@@ -74,8 +68,10 @@
 }
 
 .lg-img {
-    border-radius: 32px;
     width: 100%;
+    aspect-ratio: 288/391;
+    object-fit: cover;
+    border-radius: 32px;
     min-width: 200px;
     min-height: 300px;
 }
@@ -98,6 +94,7 @@
     .lg-img {
         min-width: 300px;
         min-height: 300px;
+        aspect-ratio: 704/391;
     }
 }
 
@@ -115,5 +112,6 @@
     .lg-img {
         width: 416px;
         height: 416px;
+        aspect-ratio: auto;
     }
 }
