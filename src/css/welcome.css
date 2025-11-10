@@ -92,10 +92,7 @@ padding: 64px 0;
   }
 }
 
-.welcome-heading-container h4,
-.welcome-heading-container h2 {
-  margin: 0;
-}
+
 /* Styles for Desktop devices */
 @media (min-width: 1440px) {
   .welcome-container {
