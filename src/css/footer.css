@@ -7,9 +7,10 @@
   border: 1px solid rgba(11, 8, 3, 0.15);
   border-radius: 40px;
   padding: 32px 46px;
-  max-width: 100%;
+  max-width: 288px;
   background-color: #c29d84;
-  margin-bottom: 32px;
+
+  margin: 0 auto 32px;
 }
 .footer-logo-wrapper {
 }
@@ -67,6 +68,8 @@
   .footer-wrap {
     display: flex;
     flex-wrap: wrap;
+    max-width: 704px;
+
     padding-left: 124px;
     padding-right: 124px;
   }
@@ -98,6 +101,8 @@
   .footer-wrap {
     display: flex;
     align-items: center;
+    max-width: 1312px;
+
     padding: 32px 48px;
   }
   .footer-socials-logo {
