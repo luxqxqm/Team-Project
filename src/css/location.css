@@ -1,10 +1,37 @@
-.container-location {
-  width: 100%;
-  max-width: 375px;
-  min-width: 320px;
-  padding: 64px 0px;
-  margin: 0 auto;
-  align-items: center;
+.container-location{
+    width: 100%;
+    max-width: 375px;
+    min-width: 320px;
+    padding: 64px 16px;
+    margin: 0 auto;
+    align-items: center;
+}
+ 
+@media screen and (min-width: 1440px){
+    .location-content{
+        width: 1312px;
+        height: 697px;
+        display: flex;
+    }
+}
+@media screen and (min-width: 768px){
+   .container-location{
+        max-width: 768px;
+        padding: 64px 32px;
+}
+}
+@media screen and (min-width: 1440px){
+   .container-location{
+        max-width: 1440px;
+        padding: 64px 64px;
+        display: flex;
+}
+}
+@media screen and (min-width: 1440px){
+   .location-row{
+        max-width: 419px;
+        height: 633px;
+}
 }
 
 @media screen and (min-width: 1440px) {
