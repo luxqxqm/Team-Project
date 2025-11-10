@@ -189,6 +189,8 @@ font-weight: 400;
 .subscribe-image {
     border-radius: 40px;
     overflow: hidden;
+    aspect-ratio: 288/400;
+    object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -246,6 +248,7 @@ font-weight: 400;
     
         .subscribe-image img {
             border-radius: 40px;
+            aspect-ratio: 704 / 400;
         }
         }
 
