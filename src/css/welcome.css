@@ -3,24 +3,17 @@
 /* Styles for Mobile devices */
 
 .welcome-container {
-  padding: 0 16px;
+  padding: 64px 16px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  max-width: 768px;
+  align-items: center;
 }
-.welcome{
-padding: 64px 0;
-}
-.welcome-text{
-width: 100%;
-}
+
 .small-title {
   font-family: Quicksand, sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: calc(150 / 100);
-  margin-bottom: 16px;
 }
 
 .welcome-heading {
@@ -33,6 +26,7 @@ width: 100%;
 }
 
 .welcome-text {
+  width: 288px;
   font-size: 18px;
 }
 
@@ -64,9 +58,6 @@ width: 100%;
 
 /* Styles for Tablet devices */
 @media (min-width: 768px) {
-  .small-title{
-    margin: 0;
-  }
   .welcome-container {
     padding-right: 32px;
     padding-left: 32px;
@@ -76,6 +67,7 @@ width: 100%;
     display: flex;
     flex-direction: row;
     gap: 32px;
+    align-items: flex-start;
   }
   .fnd-location {
     width: 181px;
