@@ -225,13 +225,13 @@ font-weight: 400;
             max-width: 340px;
         }
     
-.email-label {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    width: 100%;
-    max-width: 340px;
-}
+        .email-label {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            width: 100%;
+            max-width: 340px;
+        }
 
         .subscribe-btn {
             width: 158px;
@@ -321,7 +321,6 @@ font-weight: 400;
         
                 .subscribe-image img {
                     width: 100%;
-                    height: auto;
                     display: block;
                     border-radius: 40px;
                 }
