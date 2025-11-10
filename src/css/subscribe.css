@@ -310,7 +310,7 @@ font-weight: 400;
                 }
         
                 .subscribe-btn {
-                    padding: 24px 10px;
+                    padding: 10px 24px;
                     font-size: 16px;
                     transition: opacity 250ms ease-in-out;
                 }
