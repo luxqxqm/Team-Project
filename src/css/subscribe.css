@@ -198,7 +198,7 @@ font-weight: 400;
 
         .subscribe-section {
             max-width: 704px;
-            padding: 64px 32px;
+            padding: 0 32px;
         }
     
         .subscribe-title {
@@ -256,13 +256,11 @@ font-weight: 400;
                 .subscribe-section {
                     max-width: 1280px;
                     margin: 0 auto;
-                    padding: 64px;
+                    padding: 0 64px;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
                     gap: 32px;
-                    background-color: #e0cbb4;
-                    
                 }
         
                 .subscribe-text-content {
