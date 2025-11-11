@@ -5,10 +5,14 @@
   padding: 0 16px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 0 auto;
+  max-width: 768px;
 }
 .welcome{
 padding: 64px 0;
+}
+.welcome-text{
+width: 100%;
 }
 .small-title {
   font-family: Quicksand, sans-serif;
@@ -30,7 +34,6 @@ padding: 64px 0;
 }
 
 .welcome-text {
-  width: 288px;
   font-size: 18px;
 }
 
@@ -62,8 +65,8 @@ padding: 64px 0;
 
 /* Styles for Tablet devices */
 @media (min-width: 768px) {
-  .welcome-heading {
-    margin-bottom:0;
+  .small-title{
+    margin: 0;
   }
   .welcome-container {
     padding-right: 32px;
@@ -74,7 +77,6 @@ padding: 64px 0;
     display: flex;
     flex-direction: row;
     gap: 32px;
-    align-items: flex-start;
   }
   .fnd-location {
     width: 181px;
@@ -96,7 +98,10 @@ padding: 64px 0;
   }
 }
 
-
+.welcome-heading-container h4,
+.welcome-heading-container h2 {
+  margin: 0;
+}
 /* Styles for Desktop devices */
 @media (min-width: 1440px) {
   .welcome-container {
