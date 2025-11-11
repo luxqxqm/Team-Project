@@ -6,6 +6,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 375px;
+  margin: 0 auto;
 }
 .welcome{
 padding: 64px 0;
@@ -68,6 +70,7 @@ padding: 64px 0;
   .welcome-container {
     padding-right: 32px;
     padding-left: 32px;
+    max-width: 768px;
   }
 
   .welcome-content {
@@ -102,6 +105,7 @@ padding: 64px 0;
   .welcome-container {
     padding-right: 64px;
     padding-left: 64px;
+    max-width: 1440px;
   }
   .welcome-heading {
     height: 150px;
